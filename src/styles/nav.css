@@ -1,0 +1,15 @@
+.navContent{
+}  
+.linkContent{
+    width: 100%;
+    background: #f0f4ff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-wrap: wrap;
+     justify-content: flex-end;
+    
+}
+.NavLink:nth-child(1){
+    margin-left: auto;
+}
