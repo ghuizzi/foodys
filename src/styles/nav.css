@@ -1,14 +1,38 @@
+@import "colors.css" ;
 .navContent{
-}  
-.linkContent{
+    display: flex;
     width: 100%;
-    background: #f0f4ff;
+    margin-top: 3%;
+    justify-content: center;
+}
+.linkContent{
+    width: 85%;
+    background: var(--background-color-nav);
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     flex-wrap: wrap;
      justify-content: flex-end;
-    
+     align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.linkContent .tittle{
+    margin-right: auto;
+   
+}
+.linkContent .tittle h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+a{
+    color: var( --color-link);
+    text-decoration: none;
+
+}
+a:last-child{
+    margin-right: 5%;
 }
 .NavLink:nth-child(1){
     margin-left: auto;

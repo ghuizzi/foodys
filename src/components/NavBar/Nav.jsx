@@ -10,6 +10,10 @@ function Nav() {
       <div>
         <div className="navContent">
           <div className="linkContent">
+            <div className="tittle">
+              <h1>Foodys</h1>
+            </div>
+
             {routes[0].children.map((route, index) => (
               <NavLink
                 className="navlink"
