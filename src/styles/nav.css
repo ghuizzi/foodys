@@ -1,4 +1,4 @@
-@import "colors.css" ;
+@import "./stylesVariables/colors.css" ;
 .navContent{
     display: flex;
     width: 100%;
@@ -6,8 +6,10 @@
     justify-content: center;
 }
 .linkContent{
+    
     width: 85%;
     background: var(--background-color-nav);
+    -webkit-box-shadow: var(--sombras);
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -16,6 +18,7 @@
      align-items: center;
     padding: 10px;
     border-radius: 20px;
+    position: fixed;
 }
 .linkContent .tittle{
     margin-right: auto;
