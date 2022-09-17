@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
 import { routes } from "../../router/routes";
 import { Capitalize } from "../../utils";
 import "../../styles/nav.css";
+import Search from "./Search";
 function Nav() {
   return (
     <div>
@@ -13,7 +13,7 @@ function Nav() {
             <div className="tittle">
               <h1>Foodys</h1>
             </div>
-
+            <Search />
             {routes[0].children.map((route, index) => (
               <NavLink
                 className="navlink"
