@@ -2,7 +2,7 @@
 .navContent{
     display: flex;
     width: 100%;
-    margin-top: 3%;
+    margin-top: 5%;
     justify-content: center;
 }
 .linkContent{
@@ -19,19 +19,21 @@
     padding: 10px;
     border-radius: 20px;
     position: fixed;
+    height: 100px;
 }
 .linkContent .tittle{
     margin-right: auto;
    
 }
 .linkContent .tittle h1{
-    font-size: 22px;
+    font-size: 43px;
     text-transform: uppercase;
     font-weight: 400;
 }
 a{
     color: var( --color-link);
     text-decoration: none;
+    font-size: 22px;
 
 }
 a:last-child{
